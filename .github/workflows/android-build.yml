@@ -19,15 +19,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    # BƯỚC MỚI ĐƯỢC THÊM VÀO ĐỂ SỬA LỖI
     - name: Fix gradlew line endings
       run: sed -i 's/\r$//' ./gradlew
 
     - name: Grant execute permission for gradlew
       run: chmod +x ./gradlew
 
+    # THAY ĐỔI CHÍNH LÀ Ở DÒNG LỆNH BÊN DƯỚI
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: bash ./gradlew assembleDebug
 
     - name: Upload APK as artifact
       uses: actions/upload-artifact@v4
