@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.MayDemNiemKinh" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/amber_200</item>
+        <item name="colorOnPrimary">@color/amber_900</item>
+        <item name="colorSurface">@color/gray_900</item>
+        <item name="colorOnSurface">@color/amber_200</item>
+    </style>
+</resources>
