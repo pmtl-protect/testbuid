@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+
+    <!-- Amber Palette -->
+    <color name="amber_50">#fffbeb</color>
+    <color name="amber_200">#fde68a</color>
+    <color name="amber_700">#b45309</color>
+    <color name="amber_800">#92400e</color>
+    <color name="amber_900">#78350f</color>
+    
+    <!-- Gray Palette for Dark Mode -->
+    <color name="gray_800">#1f2937</color>
+    <color name="gray_900">#111827</color>
+    
+    <!-- Icon Background for Adaptive Icon -->
+    <color name="ic_launcher_background">#FFC107</color>
+</resources>
