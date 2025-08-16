@@ -1,12 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Máy Đếm Niệm Kinh</string>
-    <string name="login_button_text">Đăng nhập</string>
-    <string name="reset_button_text">Đặt Lại</string>
-    <string name="category_button_text">Loại</string>
-    <resources>
-    <string name="app_name">Máy Đếm Niệm Kinh</string>
-    <!-- Dán client_id bạn vừa sao chép vào đây -->
-    <string name="default_web_client_id">838526793814-vl9nr1amjo8jbtgdkqf8ps9r4opsafrj.apps.googleusercontent.com</string> 
+    
+    <!-- Dán Web Client ID của bạn từ file google-services.json vào đây -->
+    <string name="default_web_client_id">838526793814-vl9nr1amjo8jbtgdkqf8ps9r4opsafrj.apps.googleusercontent.com</string>
+    
     <string name="login_button_text">Đăng nhập</string>
     <string name="reset_button_text">Đặt Lại</string>
     <string name="category_button_text">Loại</string>
