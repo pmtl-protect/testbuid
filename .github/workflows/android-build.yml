@@ -19,8 +19,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
+    # BƯỚC MỚI ĐƯỢC THÊM VÀO ĐỂ SỬA LỖI
+    - name: Fix gradlew line endings
+      run: sed -i 's/\r$//' ./gradlew
+
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: chmod +x ./gradlew
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
