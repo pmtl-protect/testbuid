@@ -19,13 +19,18 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
+    - name: Add google-services.json
+      run: echo "${{ secrets.GOOGLE_SERVICES_JSON }}" > app/google-services.json
+
+    - name: List files in the repository
+      run: ls -laR
+
     - name: Fix gradlew line endings
       run: sed -i 's/\r$//' ./gradlew
 
     - name: Grant execute permission for gradlew
       run: chmod +x ./gradlew
 
-    # THAY ĐỔI CHÍNH LÀ Ở DÒNG LỆNH BÊN DƯỚI
     - name: Build with Gradle
       run: bash ./gradlew assembleDebug
 
